@@ -1,0 +1,370 @@
+Question,Ruleset
+"What will be the output of this statement?
+
+print (r""\njavat\npoint"")  ","-- Text ends with ""?""
+-- code starts with a keyword ""print"""
+"What will be the output of the following Python expression?
+
+X = 2+9*((3*12)-8)/10
+print(X)","-- Text ends with ""?""
+-- X is a letter followed by ""="" followed by a number
+-- print is a keyword"
+"What will be the output of the following Python expression?
+
+x = int(43.55+2/2)
+print(x)","-- Text ends with ""?""
+-- X is a letter followed by ""="" followed by a keyword ""int""
+-- print is a keyword"
+"What will be the output of the following Python expression?
+
+24//6%3, 24//4//2","-- Text part ends with ""?""
+-- Number 24 is followed by // followed by a number 6."
+"What will be the output of the following Python expression?
+
+x=float(4+int(2.39)%2)
+x","-- Text part ends with ""?""
+-- float keyword
+-- print keyword"
+"What will be the output of the following Python statement?
+
+print(""a""+""bc"")","-- Text part ends with ""?""
+-- Letter ""a"" followed by an operator ""+"" followed by a letter ""b"""
+"What will be the output of the following Python statement?
+
+print(""abcd""[2:])","-- Text part ends with ""?""
+-- ""abcd"" letters followed by ""["" followed by a number 2 followed by "":"" followed by ""]"""
+"What will be the output of the following Python code?
+
+>>> str1 = 'hello'
+>>> str2 = ','
+>>> str3 = 'world'
+>>> print(str1[-1:])","-- Text part ends  with ""?""
+-- str1 followed by ""="" followed by 'hello' - Code"
+"What will be the output of the following Python code?
+
+print (r""""\nhello"""")","-- Text part ends with ""?""
+-- print keyword followed by special characters like \ and """"  = code"
+"What will be the output of the following Python statement?
+
+>>>print('new' 'line')","-- Text part ends with ""?""
+-- print keyword followed by special characters ( ' ' ) and letters = code"
+" What will be the output of the following Python statement?
+
+>>>print('new' 'line')","-- Text part ends with ""?""
+-- print keyword followed by special characters (), \, numbers and letters = code"
+"What will be the output of the following Python code?
+
+>>>str1=""""helloworld""""
+>>>print(str1[::-1])","-- Text part ends with ""?""
+-- str1 followed by ""="" followed by letters in quotations = code"
+"What will be the output of the following Python code?
+
+print(0xA + 0xB + 0xC)","-- Text part ends with ""?""
+-- print keyword followed by special characters, letters and numbers = code"
+"What will be the output of the following Python code snippet?
+
+print('abcdef12'.replace('cd', '12'))","-- Text part ends with ""?""
+-- print keyword followed by special characters, numbers and letters
+-- replace keyword"
+"What will be the output of the following Python code?
+
+names1 = ['Amir', 'Bala', 'Chales']
+ 
+if 'amir' in names1:
+    print(1)
+else:
+    print(2)","-- Text part ends with ""?""
+-- names1 followed by ""="" followed by [ '....',  '.....', '.......'] structure for list  = code
+-- if 'amir' in names1: structure for if statement = code
+-- print keyword = code
+-- else: structure for else statement = code
+-- print keyword = code"
+"What will be the output of the following Python code?
+
+names1 = ['Amir', 'Bala', 'Charlie']
+names2 = [name.lower() for name in names1]
+ 
+print(names2[2][0])","-- Text part ends with ""?""
+-- names1 followed by ""="" followed by [ '.......', '........', '........' ] structure for list = code
+-- names2 followed by ""="" followed  by [ '.......', '........', '........' ] structure for list = code
+-- print keyword = code"
+"What will be the output of the following Python code?
+
+numbers = [1, 2, 3, 4]
+ 
+numbers.append([5,6,7,8])
+ 
+print(len(numbers))","-- Text part ends with ""?""
+-- numbers  = [1,2,3,4] structure for list = code
+-- numbers followed by keyword append = code
+-- print keyword = code"
+"What will be the output of the following Python code?
+
+list1 = [1, 2, 3, 4]
+list2 = [5, 6, 7, 8]
+ 
+print(len(list1 + list2))","-- Text ends with ""?""
+-- list1 = [1,2,3,4] structure of list = code
+-- list2 = [5,6,7,8] structure of list = code
+-- print keyword followed by special characters and operators = code"
+"What will be the output of the following Python code?
+
+def addItem(listParam):
+    listParam += [1]
+ 
+mylist = [1, 2, 3, 4]
+addItem(mylist)
+print(len(mylist))","-- Text ends with ""?""
+-- def keyword followed by structure of a function = code
+-- listParam += [1] contains operators and numbers = code
+-- mylist = [1, 2, 3, 4] structure of list = code
+-- addItem keyword = code
+-- print keyword = code"
+"What will be the output of the following Python code?                                                                        >>>t=(1,2,4,3)
+>>>print(t[1:3])","-- Text ends with ""?""
+-- t = (1,2,4,3) structure of tuple = code"
+"What will be the output of the following Python code?>>>t = (1, 2, 4, 3, 8, 9)
+>>>print([t[i] for i in range(0, len(t), 2)])","-- Text ends with ""?""
+-- t = (1,2,4,3,8,9) structure of tuple = code
+-- t[i] contains square brackets followed by structure of for loop = code"
+"What will be the output of the following Python code?
+
+>>>t1 = (1, 2, 4, 3)
+>>>t2 = (1, 2, 3, 4)
+>>>print(t1 < t2)","-- Text ends with ""?""
+-- t1 = (1,2,4,3) structure of a tuple = code
+-- t2 = (1,2,3,4) structure of a tuple = code
+-- t1 < t2 structure of a comparison operation = code"
+"What will be the output of the following Python code?
+
+>>>my_list = [1, 2, 3, 4]
+>>>my_list.append( [5, 6, 7] )
+>>>print(len(my_list))","-- Text ends with ""?""
+-- my_tuple = (1,2,3,4) structure of tuple = code
+-- my_tuple followed by append keyword followed by numbers and brackets = code
+-- print keyword = code"
+"What will be the output of the following Python code?
+
+>>> a=(4,5,6)
+>>> b=(2,8,6)
+>>> print(a+b)","-- Text part ends with ""?""
+-- a={4,5,6} structure of a set = code"
+"What will be the output of the following Python code?
+
+a = [5,5,6,7,7,7]
+b = set(a)
+def test(lst):
+    if lst in b:
+        return 1
+    else:
+        return 0
+for i in  filter(test, a):
+    print(i,end="""" """")","--English part ends with ""?"" 
+-- ""="" operator is used "
+"What will be the output of the following Python code?
+
+print('*', """"abcde"""".center(6), '*', sep='')","""print(""   is the keyword"
+"What will be the output of the following Python code snippet?
+
+print('abcd'.translate('a'.maketrans('abc', 'bcd')))","--English part ends with ""?""
+--""print("" is a keyword"
+"What will be the output of the following Python code?               
+def sayHello():                                                          print('Hello World!') 
+sayHello() 
+sayHello()","--english part ends with ""?""
+--'def' is a keyword
+--'print'is a keyword"
+"""What is the average value of the following Python code snippet?
+>>>grade1 = 80
+>>>grade2 = 90
+>>>""abf""
+>>>print((grade1 + grade2) / 2)","english part ends with ""?"" 
+'average ' is a keyword"
+What will be the correct answer for the folowing expression:  (3-17)*9.5/(-12+-8),
+What will be the correct answer for the folowing expression:  (18/16.1+15)/1.5/-13.4,
+What will be the correct answer for the folowing expression:  (-15-17.6)/(-7*-13+-16+19.2),
+What will be the correct answer for the folowing expression:  -19/-4+10.7/-19--18,
+What will be the correct answer for the folowing expression:  -10.2**(-13*12)/(-17.3+-9.2/14),
+What will be the correct answer for the folowing expression:  (-13--19-12)/1.8,
+What will be the correct answer for the folowing expression:  20.0+2.4/-13*14,
+What will be the correct answer for the folowing expression:  (20/4.0+2)/-11/6.0,
+What will be the correct answer for the folowing expression:  (18--10.0-14)/20**8/19.4,
+What will be the correct answer for the folowing expression:  -6--18/14.4*16.0,
+What will be the correct answer for the folowing expression:  (-5--13.5)/(16.5-19*4.1),
+What will be the correct answer for the folowing expression:  (12-16+18)/-11,
+What will be the correct answer for the folowing expression:  -18+-10*-2.0/7,
+What will be the correct answer for the folowing expression:  (5.4+-7--10.1)*(19.4*-19-17.2),
+What will be the correct answer for the folowing expression:  -13*-6*(20+19.2)+-14.3*14.9+17,
+What will be the correct answer for the folowing expression:  17.5-15**-11*(-19.7+5),
+What will be the correct answer for the folowing expression:  -15.5-7.1/12.8*16**-12,
+What will be the correct answer for the folowing expression:  (-4/10/-17.1)**(17.5+11),
+What will be the correct answer for the folowing expression:  (-1.0--7/-15.7)/(-19.3/-11--10.2),
+What will be the correct answer for the folowing expression:  8*-6*2,
+What will be the correct answer for the folowing expression:  6.4/0.9--7-8,
+What will be the correct answer for the folowing expression:  (20/8/1.3)**(-4+4),
+What will be the correct answer for the folowing expression:  (-18+20+1.8)/(10.2-17-5*-6.7),
+What will be the correct answer for the folowing expression:  -3/0.1/10*1**13,
+What will be the correct answer for the folowing expression:  (-10/-17)**8/2**-16/0.5,
+What will be the correct answer for the folowing expression:  (17.4/-2--6)*(-9-7*-16),
+What will be the correct answer for the folowing expression:  -13.0--14*-14+-13,
+What will be the correct answer for the folowing expression:  (7.8+1.2/-7)/(-7/11-4--14.2),
+What will be the correct answer for the folowing expression:  -6.9+(10.2*12)**(4.2/8),
+What will be the correct answer for the folowing expression:  19/-0.4/-10,
+What will be the correct answer for the folowing expression:  (-7/-18.1)**(10--13.0),
+What will be the correct answer for the folowing expression:  -7*1+(3.9+6)*-6.2**-18,
+What will be the correct answer for the folowing expression:  -15.2--13.6-20+5.7/10.3,
+What will be the correct answer for the folowing expression:  (-8*17/16.3)**-8,
+What will be the correct answer for the folowing expression:  -16**-16/(6.7**-16-9.2*-12),
+What will be the correct answer for the folowing expression:  (7+15.3-14/-7)*14.7/-13/-14,
+What will be the correct answer for the folowing expression:  -3.2+11/-6/-19.8*-18,
+What will be the correct answer for the folowing expression:  2/-11.5/(-3-6-10.3/11),
+What will be the correct answer for the folowing expression:  11.0/(4.8--8.9)*10,
+What will be the correct answer for the folowing expression:  (-13+-5+16)/(16.1/-2.0+-10.1),
+What will be the correct answer for the folowing expression:  -15.5/15/14/-17.3,
+What will be the correct answer for the folowing expression:  (18--2.1)/(16--1)*15/-7/15.1,
+What will be the correct answer for the folowing expression:  (-18.0/-15.5+-11.5)/18,
+What will be the correct answer for the folowing expression:  (2.6+9)/(2+-4.9)/15.7*-13.4,
+What will be the correct answer for the folowing expression:  -12*0.7+9.8/-17.1*-5,
+What will be the correct answer for the folowing expression:  7+-7.2/-0.8+3.6**(-2.5/15),
+What will be the correct answer for the folowing expression:  16/-13/-10.1--2+-14--13,
+What will be the correct answer for the folowing expression:  (-1.3+-19.1)/20/12.2+3.9,
+What will be the correct answer for the folowing expression:  (-18+-2.3)*2*13/(15.1+2.4/17),
+What will be the correct answer for the folowing expression:  -4.8/(-16/3.1-13.8/-10.8),
+What will be the correct answer for the folowing expression:  17.8/-19/(20/6.3-20),
+What will be the correct answer for the folowing expression:  14.5-7*10.0--9--8.6+-1,
+What will be the correct answer for the folowing expression:  -17.3--18.6--17.6**(0/-14.5),
+What will be the correct answer for the folowing expression:  14.8/-6*-5.4--10.2/(17.3--7),
+What will be the correct answer for the folowing expression:  -3/14*4+-6.0/18,
+What will be the correct answer for the folowing expression:  5.9/-1.8--1+-16.7/(18-13),
+What will be the correct answer for the folowing expression:  (-4/-4/(19+-4.9))**(20+0--19/5),
+What will be the correct answer for the folowing expression:  -19/(8--7--10),
+What will be the correct answer for the folowing expression:  -15.3/6/10.2-9**-9--18+-6,
+What will be the correct answer for the folowing expression:  -4.8+-0.2,
+What will be the correct answer for the folowing expression:  (-1/11)**(-9+15.0)--12.5*1,
+What will be the correct answer for the folowing expression:  -16/(14--15.8)/(-2-2.9)/6.8/4,
+What will be the correct answer for the folowing expression:  19/9*(-19.7/16.3--10.6),
+What will be the correct answer for the folowing expression:  7**(-7-11)*(14.2+10+-11--10),
+What will be the correct answer for the folowing expression:  6*17.4/12/(2/-1-17.1),
+What will be the correct answer for the folowing expression:  17.6*16*-8/3+0.3/13.4-15,
+What will be the correct answer for the folowing expression:  -12*15.6-(1+9.4)/-15/-5,
+What will be the correct answer for the folowing expression:  -13.7/-1/(-9.9-19)/(15.1+-15/6),
+What will be the correct answer for the folowing expression:  -18/4**17.5+-14/2/-0.2/2,
+What will be the correct answer for the folowing expression:  -2*18*2.1/-15,
+What will be the correct answer for the folowing expression:  19.7/-3/13/(19.6+-17--9.8),
+What will be the correct answer for the folowing expression:  12/-19.5/-5.3+-20--10+18-7,
+What will be the correct answer for the folowing expression:  6**-1.9**7/14**-4.5/-15.1*-3,
+What will be the correct answer for the folowing expression:  (18+-17.6--2)**(-12.0-18+-6),
+What will be the correct answer for the folowing expression:  -19.7*(-1*-0.1+2.6),
+What will be the correct answer for the folowing expression:  -6.3/-7/(18.4+-15.5),
+What will be the correct answer for the folowing expression:  -17/-16.1/-13/(-16.0--14.1+-0.8),
+What will be the correct answer for the folowing expression:  -19+-9.2+1-19/(5+-3.7),
+What will be the correct answer for the folowing expression:  (7.0+1.6)/12*(20*-19+-12),
+What will be the correct answer for the folowing expression:  (4+3.8)*(20--10)/(-10+2),
+What will be the correct answer for the folowing expression:  (-19.5-9)*-17/15**(6/5.8),
+What will be the correct answer for the folowing expression:  (1*18.2+-7)*-5.4/14.8,
+What will be the correct answer for the folowing expression:  -7.4--6.8*-0.4+-17.7,
+What will be the correct answer for the folowing expression:  (4+12--1.6)/19.3*4.5*-11,
+What will be the correct answer for the folowing expression:  -13+4.3-2-9.1/-5,
+What will be the correct answer for the folowing expression:  (10+-15.3+19.3/7.1)*-10/-5.7,
+What will be the correct answer for the folowing expression:  -20*-5.4/-5.6/-17,
+What will be the correct answer for the folowing expression:  6--11+5--10.7--0.5,
+What will be the correct answer for the folowing expression:  -8/18.7/(-6.5--11+15),
+What will be the correct answer for the folowing expression:  -2.1-15.3/(11--5.7),
+What will be the correct answer for the folowing expression:  -15.18*-84.48,
+What will be the correct answer for the folowing expression:  64.47/94.41/89.27/49.62*-26.01,
+What will be the correct answer for the folowing expression:  (-18.24+13.69/34.18)*(-71.24+-52.21),
+What will be the correct answer for the folowing expression:  59.23/(48.42--85.97),
+What will be the correct answer for the folowing expression:  -17.23/-82.85*-10.72/90.33*24.17,
+What will be the correct answer for the folowing expression:  (-21.77/-37.45*65.0)**-78.37,
+What will be the correct answer for the folowing expression:  -32.98/42.12/16.82--65.71/-90.22,
+What will be the correct answer for the folowing expression:  -64.49/58.26/65.13/(30.9--80.04),
+What will be the correct answer for the folowing expression:  76.82/1.93/43.16/61.37/-96.51,
+What will be the correct answer for the folowing expression:  6.94**(92.13/79.58),
+What will be the correct answer for the folowing expression:  -46.07+54.93/-17.89*-2.54,
+What will be the correct answer for the folowing expression:  (47.25+-20.19-31.34)/54.92,
+What will be the correct answer for the folowing expression:  -6.03/(-6.39-46.15+82.29**-38.76),
+What will be the correct answer for the folowing expression:  25.89/-17.5*77.26/-13.42,
+What will be the correct answer for the folowing expression:  (-73.78+-37.34)*-80.69/94.38,
+What will be the correct answer for the folowing expression:  -67.8/46.65*-12.66*8.7*-90.92,
+What will be the correct answer for the folowing expression:  7.39/-25.1*71.28/26.86/69.32,
+What will be the correct answer for the folowing expression:  71.55/(24.84--77.27+89.15),
+What will be the correct answer for the folowing expression:  -71.48+98.14**-5.52-22.83,
+What will be the correct answer for the folowing expression:  (6.81--9.22)*81.59--40.66,
+What will be the correct answer for the folowing expression:  66.13+72.27,
+What will be the correct answer for the folowing expression:  -78.5*(-15.26-3.74)/26.83,
+What will be the correct answer for the folowing expression:  -91.64/-98.21*-21.08,
+What will be the correct answer for the folowing expression:  -88.29+54.47,
+What will be the correct answer for the folowing expression:  10.02+18.06/-45.62,
+What will be the correct answer for the folowing expression:  3.24/83.94+-82.86*51.51,
+What will be the correct answer for the folowing expression:  (-41.78-80.25)/-28.23/84.99*4.21,
+What will be the correct answer for the folowing expression:  (60.15*61.88+-44.92)**(-69.19-14.15),
+What will be the correct answer for the folowing expression:  58.27*1.74/99.21,
+What will be the correct answer for the folowing expression:  ((-5)*10-6**(-7))/(4*3-(-9)-6),
+What will be the correct answer for the folowing expression:  ceil(5*9+8-(-7)+(-5)/3),
+What will be the correct answer for the folowing expression:  7*(-9)-ceil((-5)*0),
+What will be the correct answer for the folowing expression:  (-6)/(-6),
+What will be the correct answer for the folowing expression:  -8/(ceil((-4)+(-7)))*(-3),
+What will be the correct answer for the folowing expression:  floor(5-7*9+(7+(-2))*(10+(-9))),
+What will be the correct answer for the folowing expression:  floor((-6)-(-9)/9),
+What will be the correct answer for the folowing expression:  5/(-8)*(floor((-9)/8)*(-2)/(-4)),
+What will be the correct answer for the folowing expression:  ceil(((-7)-1+5)*(-8)*8*0),
+What will be the correct answer for the folowing expression:  floor((-1)/(-3)+8/8+(-9)+4-4),
+What will be the correct answer for the folowing expression:  4/(5+4)+(((-3))-8)**(((-3))-7),
+What will be the correct answer for the folowing expression:  ((-7)+5)/((-5))/ceil(((-5))/(-10)),
+What will be the correct answer for the folowing expression:  ceil(5*(-9)-7)-((-5)-1)/(-9),
+What will be the correct answer for the folowing expression:  ceil((-7)/(-1)/4*((-6)-(-8)*(-6))),
+What will be the correct answer for the folowing expression:  (7-3-(-8)/(-9))*(1/9-3*(-5)),
+What will be the correct answer for the folowing expression:  3**((-2)-(-8)),
+What will be the correct answer for the folowing expression:  -8+8+6-(-1)-0+6,
+What will be the correct answer for the folowing expression:  ceil((4-(-4))*(-9)/(-7)),
+What will be the correct answer for the folowing expression:  6**(-2)*8*(-8)*((-10)-6),
+What will be the correct answer for the folowing expression:  ceil(8/((-4)+9))+(-3)+5,
+What will be the correct answer for the folowing expression:  floor(((-1))/6+2+(-1)+6),
+What will be the correct answer for the folowing expression:  floor((-5)/5/(2-3)+(-2)+3/10),
+What will be the correct answer for the folowing expression:  2+ceil(9+8)-(-3),
+What will be the correct answer for the folowing expression:  (4-(-6)-(-5)*(-1))/(-7)/9*ceil((-1)*1),
+What will be the correct answer for the folowing expression:  floor(0-5-(-10)-(-3)),
+What will be the correct answer for the folowing expression:  1+(-1)/(-7)+6**3,
+What will be the correct answer for the folowing expression:  (2+(-10))**(2-2)*(-8)-1-3,
+What will be the correct answer for the folowing expression:  floor(10-(-6)+5)*(-7)*(-6)-10+5,
+What will be the correct answer for the folowing expression:  (8+(-4))/(3**(-9)-(-8)),
+What will be the correct answer for the folowing expression:  ((-8)-13**5.4)/((-20)+4.7)*((-15.4)+(-19)),
+What will be the correct answer for the folowing expression:  3/1+14*(-4.6)+(-7)+(-9.1),
+What will be the correct answer for the folowing expression:  ((-2.6)**10+(-3)-(-18))/(-7.8),
+What will be the correct answer for the folowing expression:  -13*(-16.1)+9.4-((-1.7)-(-10))*(-11.3),
+What will be the correct answer for the folowing expression:  (5.5+(-12))/(ceil(18-8)-(-7)-15.1),
+What will be the correct answer for the folowing expression:  20**(-9)/(-19.8)*((-10.8)+4+(-13.6)/19),
+What will be the correct answer for the folowing expression:  ((-1.2)-1.4)/(2.6+(-12.9))*11.5,
+What will be the correct answer for the folowing expression:  -14.3/4.2/(-11)/(floor(17/18+(-18)/(-2))),
+What will be the correct answer for the folowing expression:  floor(((-0.0)+19.5-(-13)/(-14.5))/((-18)-(-0.4))),
+What will be the correct answer for the folowing expression:  (10+15+11)**(15*11.5)**(-7),
+What will be the correct answer for the folowing expression:  6.5+17.4+(-12.5)+(-12.7)/16,
+What will be the correct answer for the folowing expression:  ceil(7.3-17+15/(-9.1)*(-18.7)),
+What will be the correct answer for the folowing expression:  (floor((-20)-(-1.4)*6.4))/(-15.3),
+What will be the correct answer for the folowing expression:  12.0**7**(1.5/(-16.8))+1*((-6)+2),
+What will be the correct answer for the folowing expression:  -3/0.2*((-8)+13)**((-11.7)/4.8),
+What will be the correct answer for the folowing expression:  20*(-3.9)+0.7-(-14)/(-17)+20**(-15),
+What will be the correct answer for the folowing expression:  (18-20*(-10))/floor(((-19)*(-19)*0.8)/(-16)*4.6),
+What will be the correct answer for the folowing expression:  (11+12)/(-8)-2.5**(-7)+(-16.5)/3,
+What will be the correct answer for the folowing expression:  -9+(-16)-(-12),
+What will be the correct answer for the folowing expression:  -5.0/(ceil((-11)-5.2+(-7))),
+What will be the correct answer for the folowing expression:  (0+20)/19.2-1.9,
+What will be the correct answer for the folowing expression:  -15-(-11)+(-7)*(-9.2)-(-10.0)/(-12.6),
+What will be the correct answer for the folowing expression:  0/(-11.2)*(-4.4)*(18.9-9*(-6)),
+What will be the correct answer for the folowing expression:  (5-0)/((-17))+ceil(((-12)-18)/((-17))),
+What will be the correct answer for the folowing expression:  10/2/3.0/floor(8/(-2.9)),
+What will be the correct answer for the folowing expression:  0.3**11/6-14/(-4.6)-13,
+What will be the correct answer for the folowing expression:  floor((-1.1)/(-36.37)/(-16.53))+71.43,
+What will be the correct answer for the folowing expression:  ((-63.01)+(-4.89))*(-79.84)/(-45.95)*27.42,
+What will be the correct answer for the folowing expression:  71.96**(-58.42)/42.57/(-1.43),
+What will be the correct answer for the folowing expression:  (14.39-43.63*23.48)/59.13,
+What will be the correct answer for the folowing expression:  ((-19.54)+58.66)**57.73**(-10.57),
+What will be the correct answer for the folowing expression:  floor(12.28-22.08-43.56),
+What will be the correct answer for the folowing expression:  95.74/(-25.34)/1.4+41.55,
+What will be the correct answer for the folowing expression:  -99.66/((-11.38)*(-13.94))**(51.33+60.66),
+What will be the correct answer for the folowing expression:  51.12**67.88**(-74.91)*54.53/43.56,
+What will be the correct answer for the folowing expression:  (83.4-(-51.12))/14.72*20.99*61.07,
+What will be the correct answer for the folowing expression:  ceil((-29.42)/96.84/(-26.98))+17.73,
+What will be the correct answer for the folowing expression:  -90.67/69.0/6.66/(-42.95)*(-16.35),
+What will be the correct answer for the folowing expression:  (79.99+(-94.99))/51.08*6.89,
+What will be the correct answer for the folowing expression:  15.79/(-43.72)/62.28-(-66.82),
